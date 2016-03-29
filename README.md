@@ -3,11 +3,9 @@ This is the second project for CS1501. It is an implementation of LZW compressio
 
 Compile: javac MyLZW.java
 Run:
-compress the file foo.txt to generate foo.lzw using Reset mode, you should call:
-java MyLZW - r < foo.txt > foo.lzw
+compress:   java MyLZW - r < foo.txt > foo.lzw
 
-inflate foo.lzw into foo2.txt, you should run:
-java MyLZW + < foo.lzw > foo2.txt
+expand:     java MyLZW + < foo.lzw > foo2.txt
 
 
 ##High-level description:
